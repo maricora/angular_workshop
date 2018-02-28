@@ -25,6 +25,8 @@ import { TodoListService } from '../todo-list.service';
 export class ListManagerComponent implements OnInit {
 	title = 'todo';
 	
+	todoList = [];
+	
 	constructor(private todoListService:TodoListService) { }
 
   ngOnInit() {
